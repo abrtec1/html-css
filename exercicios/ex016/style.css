@@ -1,0 +1,32 @@
+  * {
+    font-family: Arial, sans-serif; /*siga este modelo pois ele está correto no modeo css global */
+  }
+    body{
+        background-image: linear-gradient(to right, #F29727,violet);
+        color: blueviolet;
+      }
+    main{
+        background-color: rgb(99, 209, 172);
+        border-radius: 2%;
+        box-shadow: 5px 5px 5px rgb(92, 83, 83);
+        width: 300px; 
+    
+        padding: 5%;
+        margin: auto;
+    }
+
+    h1{
+        color: #293942;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgb(49, 49, 49);
+    }
+
+    h2{
+        color: #3d606d;
+    }
+  p{
+    text-align: justify;
+  }
+/*siga este modelo deste forma tentei algumas outras formas estava dando erro css *global */
+  
+   

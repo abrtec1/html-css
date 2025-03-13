@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>  
+        h1{
+        /* Importante conhecer o dev tools para analizar o site ou até mesmo Teste de Software */
+            
+            /* agora vai ser aplicado modelo (shorthand é uma simplificação) height: 300px;
+            width: 300px;  /* agora vai ser aplicado modelo short*/
+
+
+            background-color: darkgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid rgb(65, 64, 64);
+
+            padding: 10px; /*caso os padding/ margin as bordas sejam iguais pode colocar apenas o modelo mostrado nao precisa ser ex: 10px 10px...*/
+            
+           
+            margin: 20px auto 40px auto ;  /*caso os padding/ margin  as bordas sejam iguais pode colocar apenas o modelo mostrado nao precisa ser ex: 10px 10px...*/
+           
+            outline: 05px solid darkred;
+        }
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level mas os <a href="#">Links são exemplos e caixas Inline-level</a>Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

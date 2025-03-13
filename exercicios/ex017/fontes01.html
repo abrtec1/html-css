@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline; 
+            /* a ordem de colocar as style é font-style- font-weight -font-size- fon=family  como se chama atalho  "shorthand" */
+        }
+        /* As fontes da letras os modelos font-family
+            Uma outra observação é 
+            Medidas absolutas: cm,mm,in,px,pt,pc centimetro,milimetro e polegada, pixel,ponto,paica
+            O recomendado é usar PX para tamanhos ou em são recomendads pela W3C site ordena usos e tamanhos etc.
+             
+            Medidas relativas : em, ex, rem ,vw, vh, % buscar refrencias site W3scool*/
+        h1{ 
+            font: italic bolder 3em 'work Sans', sans-serif; /* observe como ficou o título do h1, E desta forma voce pode aplicar em qualquer outra (tag)*/
+            /*Esse é um sorce chamado "shorthand" */
+        }
+        h2{
+            font:bold 2em 'work Sans'
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h1>
+        Trabalhando com as fontes
+    </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ipsam nulla recusandae sapiente quo nam consectetur rerum sunt nihil aliquam, consequatur officia aliquid atque beatae labore voluptates dicta nostrum adipisci?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem enim illo reprehenderit odio tempore doloribus autem. Officia quibusdam hic nemo similique, odio, tempore culpa commodi fugiat fuga sequi nisi?</p>
+
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non voluptate rerum id amet, blanditiis cum in natus eum qui magni quisquam a facere aliquid odio possimus voluptatem dolorum voluptatibus?</p>
+</body>
+</html>

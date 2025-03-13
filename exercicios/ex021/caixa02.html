@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(143, 141, 141);
+            text-decoration: none;
+            color: rgb(105, 105, 105);
+            font-weight: bold;
+            
+        }
+        nav > a :hover {
+            text-decoration: underline;
+            box-shadow: 1px 1px 1px black;
+        }
+        
+        main{
+            text-decoration: none, color ( rgb(243, 64, 64));
+            background-color: rgb(112, 111, 111);
+            padding: 5px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(179, 176, 176);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0 px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div><header>
+        <h1>Meu Site</h1>
+        <nav style="text-decoration: none;">
+        <main style = "color: rgb(235, 70, 70);"> 
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </main>
+        <main>
+            <section id="Assuntos">
+                <p style="color: white;">Esporte Política e Tecnologia</p>
+                
+            </section>
+            <section id="Notícias">
+                <article>
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, natus ea totam consectetur ducimus rerum. Inventore molestias, quas sint commodi tempora consequuntur non alias, cum sed, maxime dignissimos! Labore, incidunt!</p>
+                    <aside>Artigo Escrito por André Rufino </aside>
+                </article>
+                
+            </section>
+        </main>
+        </nav>
+    </header></div>
+
+    <br>  <br> 
+    <footer><p>Desenvolvido por ABRTÉC-Ti</p></footer>
+
+</body>
+</html>

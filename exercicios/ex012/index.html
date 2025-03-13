@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+   
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1> <!--Neste video primeiro teoricamente ele está consumindo dados e tráfego no servidor aonde o cliente for hospedar -->
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video height="180"width="250" poster="imagem/passaro700.jpg"controls autoplay loop>
+        <source src="midia/Video-Galinha(1).mp4" type="video/mp4">
+
+    </video>
+        <!--Estes videos a configuração mp4 ou m4v etc o bom é colocar videos que mais são usados pelo chrome e outros navegadoresaqui só um exemplo -->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+        <h1>Inserindo videos do You Tube</h1> <!--Aqui não esta sendo consumindo dados e nem mesmo tráfego porque esta sendo de fora ou seja do neste caso you tube ou seja de "graça" -->
+        <iframe width="250" height="180" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=8VLMRyqorcsLVm8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h2>Inserindo vídeos do vimeo </h2>
+        
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/669216197?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:250px;height: 180px;;" title="Animes edit 4k"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    
+</body>
+</html>

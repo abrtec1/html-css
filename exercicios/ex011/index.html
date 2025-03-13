@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <p>
+        <source media="(max-width:350px )" srcset="imagens/img.p.png" type="image/png">
+        
+        <picture><img src="imagens/img.p.png"alt="imagem flexível"></picture>
+        <h1>Reproduzindo áudios em HTML5</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+        <audio preload="metadata" autoplay controls >
+            <source src="midia/music-clock.mp3" type="audio/mpeg"> <!--o sistema vai procurar mp3 -->
+            <source src="midia/music-clock.ogg" type="audio/ogg"> <!--segundo o sistema vai procurar ogg-->
+            <source src="midia/music-clock.wav" type="audio/wav">
+        </audio><!--terceiro o sistema vai procurar wav-->
+        <!--Os audios mais compativeis e usados são: mp3 wav ogg a busca do sistema será na oredem em que for colocado como modelo acima -->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/music-clock.mp3" > clique aqui para baixar o arquivo</a> </p>
+        
+</head>
+<body>
+    
+</body>
+</html>

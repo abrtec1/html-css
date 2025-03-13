@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links </title>
+    <style>
+        /* # = id 
+            . = class
+            : = pseudo class
+            :: = pseudo-element
+             > = clildren ( filho) isso tudo é na CSS3 */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;     /* Aqui esta sendo mostrado as pseudo classes veja todo o contéudo */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: red;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellowgreen;
+            
+        }
+        .especial {
+            background-color: aqua;
+        }
+        .especial::before{   /* estes são pseudo elementos busque no site oficial "w3schools.com" */
+            content: '⟽';
+        }
+        .especial::after { 
+            content: '⟾';
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/abrtec1" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@andrerufino5471" class="especial">Canal do You Tube</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100007048817326&locale=pt_BR" class="especial">Minha página no facebook </a></li>
+    </ul>
+</body>
+</html>
