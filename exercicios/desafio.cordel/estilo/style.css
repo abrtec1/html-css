@@ -52,7 +52,10 @@ section {
     line-height: 2em;
     padding-left: 25px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 3.0vw;
+}
+section p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -62,13 +65,27 @@ section.normal {
 section.imagem {
     background-color: rgb(48, 47, 47);
     color: white;
+    box-shadow: inset 8px 8px 18px 0px black;
+    background-attachment: fixed;
 
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgb(58, 57, 57);
+    background-color: rgba(180, 176, 176, 0.315);
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01 {
+    background-image: url(../imagen/Lua.predio.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url(../imagen/buguerking.png);
+    background-position: right center ;
+    background-size: cover;
 }
 
 footer {
