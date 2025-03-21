@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 6px;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 6px;
+        }
+        .destaque {
+            background-color: rgb(156, 154, 154);
+        }
+        col.cnome {
+            background-color: rgb(156, 154, 154);
+        }
+        .cinza {
+            background-color: rgb(161, 159, 159);
+        }
+        .amarelo {
+            background-color: rgb(204, 204, 5);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas </h1>
+
+    <table>
+        <colgroup>
+            <col class="cinza">
+            <col class="amarelo">
+            <col class="cinza">
+            <col class="amarelo">
+
+
+        </colgroup>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td> Alessandra Brito</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td> Plinio Fabrício </td>
+            <td>M</td>
+            <td>33</td>
+            <td>Contador</td>
+        </tr>
+        <tr>
+            <td> Andrezza Brito</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Escritora</td>
+        </tr>
+        <tr>
+            <td> Érick farias</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Estagiário</td>
+        </tr>
+        <tr>
+            <td> Luzinete Brito</td>
+            <td>F</td>
+            <td>48</td>
+            <td>Diretora comercial</td>
+        </tr>
+        <tr>
+            <td> Enzo Brito</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Fotográfo</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
